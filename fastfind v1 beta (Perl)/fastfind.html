@@ -1,0 +1,82 @@
+<html>
+<head>
+	<style type="text/css">
+		.boldy { font-weight: strong; }
+		.italicy { text-decoration: italic; }
+	</style>
+</head>
+<body>
+
+<pre>
+<!-- heading -->
+fastfind(1)					     		 fastfind(1)
+
+<!-- name -->
+<b>NAME</b>
+	<b>fastfind</b> - finds untaken three letter domains
+
+
+<b>SYNOPSIS</b>
+	<b>fastfind</b> [options] [file]
+
+<b>DESCRIPTION</b>
+	Finds all three letter domains that are still unregistered
+	by digging up information on them from registrars.  The
+	output of the program goes in available.txt by default if
+	an alternate file isn't stated when the program is invoked.
+	
+
+	<b><i>-f</i></b>, <b><i>--finish [domain]</i></b>
+		ends the program at the domain given.
+
+	<b><i>-h</i></b>, <b><i>--help</i></b>
+		displays the help dialog and then exits.
+
+	<b><i>-e</i></b>, <b><i>--extensions [extension ...]</i></b>
+		specifies which domain extensions to search for.
+
+	<b><i>-s</i></b>, <b><i>--start [domain]</i></b>
+		starts the program at the domain given.
+	
+	<b><i>-t</i></b>, <b><i>--timeless</i></b>
+		report the output without the timestamps.
+
+	<b><i>-v</i></b>, <b><i>--verbose</i></b>
+		display more verbal output throughout the program.
+
+	<b><i>-V</i></b>, <b><i>--version</i></b>
+		display version information and then exits.
+       
+<b>REPORTING BUGS</b>
+       Report bugs to &lt;malachix@malachix.com&gt;.
+
+<b>SEE ALSO</b>
+       None.
+
+<b>LICENSE</b>
+       This program is free software; you can redistribute it and/or modify
+       it under the terms of the GNU General Public License as published by
+       the Free Software Foundation; only version 2 of the License.
+
+       This program is distributed in the hope that it will be useful,
+       but <b>WITHOUT ANY WARRANTY</b>; without even the implied warranty of
+       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+       GNU General Public License for more details.
+
+       You should have received a copy of the GNU General Public License
+       along with this program; if not, write to the Free Software
+       Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
+       02111-1307, USA.
+
+<b>BUGS</b>
+       The only known bug is that the last couple domains being queried
+       are not returned.  The answer to this bug is under scrutiny.
+
+<b>AUTHORS</b>
+       Alwyn Malachi Berkeley &lt;malachix@malachix.com&gt;
+
+								 fastfind(1)
+</pre>
+
+</body>
+</html>
